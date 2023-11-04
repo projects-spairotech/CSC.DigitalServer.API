@@ -27,6 +27,7 @@ namespace CSC.DigitalServer.API.Controllers
 		public IEnumerable<WeatherForecast> Get()
 		{
 			string test = string.Empty;
+			string test1 = string.Empty;
 			var rng = new Random();
 			return Enumerable.Range(1, 5).Select(index => new WeatherForecast
 			{
